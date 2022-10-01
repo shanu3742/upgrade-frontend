@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(218, 210, 210);
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar-container{
+    width: 100%;
+    background-color: white;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-container{
+    width: 100%;
+    min-height: 92vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('./Home interior design funiture and nature decor.svg') no-repeat ;
+    background-size: cover;
+    
+
+
+    
+
+    
+ 
+
+    
+}
+[title="app-tittle"]{
+    color: #f8c736;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+[title="nav-content"]{
+    /* width: 20%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(164, 162, 162);
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: 0.8;
+    height: 100%;
+    align-items: center;
+    /* background-color: aqua; */
+}
+[title="nav-content"]:hover{
+    opacity: 1;
+}
+[title="nav-content"]>a{
+    text-decoration: none;
+    color: rgb(164, 162, 162);
+    
+  height: 4vh;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1em;
+  margin-right: 2em;
+   
+
+}
+[title="product-page"]{
+    border-bottom: 3px solid #fbe6a5;
+   
+}
+[title="single-product"]{
+    border-bottom: 3px solid #fbe6a5;
+   
+}
+[title="logo"]{
+    background-image: url('./Screenshot (65).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:2.5em;
+    height:2.5em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav-content-cart{
+    display: flex;
+    margin-right: 1em;
+   
+    justify-content: space-between;
+}
+.nav-content-cart .fa-cart-arrow-down{
+    margin-left: 1em;
+    position: relative;
+}
+.cart-content::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fbe6a5;
+    position: absolute;
+    top: -20%;
+}
+.section-container>div{
+   
+    margin-bottom: 0.1em;
+}
+#product-quantities{
+   color: black;
+   font-size: 3em;
+   font-weight: bolder;
+   font-family:cursive;
+   /* background-color: #f8c736; */
+   line-height: 1;
+   
+}
